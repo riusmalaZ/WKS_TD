@@ -3,7 +3,22 @@ guid: 291dd7597c205cf43b162f610a2ed4f4
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: herbe
+    second: {fileID: 2100000, guid: 13f0bc5b36cac1847bed0553fd9806ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sable
+    second: {fileID: 2100000, guid: 7e1f44c3d47301c4e9fb4767b0bd2db3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vert_feuille
+    second: {fileID: 2100000, guid: 7f69186afc1e9c7478ead1b0b250af11, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

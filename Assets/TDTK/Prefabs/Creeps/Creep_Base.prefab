@@ -401,7 +401,7 @@ MonoBehaviour:
     mulSpd: 0.5
     mulExp: 0.5
     mulRsc: 0.5
-  spawnOnDestroyed: {fileID: 0}
+  spawnOnDestroyed: {fileID: 114528667568048320, guid: d3320175d3a0e2d41abf4e4121b105ef, type: 3}
   sodCount: 1
   sodOverride:
     mulHP: 0.5

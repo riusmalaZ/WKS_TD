@@ -20,6 +20,6 @@ public class deplacement_cam : MonoBehaviour
     {
         direction = new Vector3(0, 0, -Input.GetAxis("Horizontal")) * speed * Time.deltaTime;
         transform.position += direction ;
-        //transform.position = Vector3.Min(LimitMax.position, Vector3.Max(LimitMin.position, transform.position));
+        transform.position = Vector3.Min(LimitMax.position, Vector3.Max(LimitMin.position, transform.position));
     }
 }
