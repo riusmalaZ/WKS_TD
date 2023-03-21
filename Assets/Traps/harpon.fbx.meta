@@ -3,7 +3,12 @@ guid: 6bf24ce1159c5de4e8c562a40e1da860
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: harpon
+    second: {fileID: 2100000, guid: e4691a8a61e393e4899050818b21ed3f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
