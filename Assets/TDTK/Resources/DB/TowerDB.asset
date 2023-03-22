@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: TowerDB
   m_EditorClassIdentifier: 
   objList:
-  - {fileID: 5042032610127852203, guid: c6f85f559c226164889b82e3584c4307, type: 3}
-  - {fileID: 5671889124431707628, guid: 6ca2740421bf1e54eb5b4626586c1309, type: 3}
+  - {fileID: 5970076541225327407, guid: c0e680dbd86ad8540badc3587511d57b, type: 3}
+  - {fileID: 7524970725049993550, guid: 405f5e548dabcaa48bede1149f6f502e, type: 3}
+  - {fileID: 4639514557135355777, guid: c861770769046884b9ff431590ed43aa, type: 3}
   towerList:
-  - {fileID: 5007483353257163210, guid: c6f85f559c226164889b82e3584c4307, type: 3}
-  - {fileID: -1301232695241164150, guid: 6ca2740421bf1e54eb5b4626586c1309, type: 3}
+  - {fileID: 277372211491387322, guid: c0e680dbd86ad8540badc3587511d57b, type: 3}
+  - {fileID: 3605547070609849575, guid: 405f5e548dabcaa48bede1149f6f502e, type: 3}
+  - {fileID: 3265217234116915610, guid: c861770769046884b9ff431590ed43aa, type: 3}
   copiedFromOldDB: 0

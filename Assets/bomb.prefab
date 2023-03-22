@@ -99,7 +99,7 @@ MonoBehaviour:
   resetTargetOnAttack: 0
   prefabID: 3
   instanceID: -1
-  unitName: 
+  unitName: bombe
   icon: {fileID: 0}
   desp: unit description
   canBeAttacked: 1
