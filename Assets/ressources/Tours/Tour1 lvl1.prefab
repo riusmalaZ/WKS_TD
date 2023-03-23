@@ -1317,7 +1317,7 @@ MonoBehaviour:
   instanceID: -1
   unitName: Tourelle
   icon: {fileID: 21300000, guid: 45aedb4af37cc4242a39a427c4bd9110, type: 3}
-  desp: unit description
+  desp: 'Petite tourelle, indispensable '
   canBeAttacked: 1
   canBeTargeted: 1
   unitRadius: 5
@@ -1338,9 +1338,9 @@ MonoBehaviour:
     sellDuration: 1
     expToNextUpgrade: 10
     cost:
-    - 10
+    - 15
     sellValue:
-    - 0
+    - 7
     hp: 5
     sh: 0
     shRegen: 0.5
@@ -1354,11 +1354,11 @@ MonoBehaviour:
     dmgReduc: 0
     critReduc: 0
     hit: 1
-    damageMin: 2
-    damageMax: 2
-    attackRange: 9
+    damageMin: 6
+    damageMax: 9
+    attackRange: 10
     aoeRange: 0
-    cooldown: 1
+    cooldown: 0.5
     critChance: 0
     critMultiplier: 0
     effectOnHitChance: 1

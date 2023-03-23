@@ -65,16 +65,16 @@ MonoBehaviour:
   cooldownRsc: 0
   level: 0
   statsList:
-  - editTurret: 0
-    editAOE: 0
+  - editTurret: 1
+    editAOE: 1
     editMine: 0
-    buildDuration: 1
+    buildDuration: 2
     sellDuration: 1
     expToNextUpgrade: 10
     cost:
-    - 25
+    - 30
     sellValue:
-    - 0
+    - 10
     hp: 5
     sh: 0
     shRegen: 0.5
@@ -88,21 +88,21 @@ MonoBehaviour:
     dmgReduc: 0
     critReduc: 0
     hit: 1
-    damageMin: 2
-    damageMax: 2
-    attackRange: 2
-    aoeRange: 0
-    cooldown: 1
+    damageMin: 5
+    damageMax: 6
+    attackRange: 8
+    aoeRange: 4
+    cooldown: 2
     critChance: 0
     critMultiplier: 0
-    effectOnHitChance: 1
+    effectOnHitChance: 0.05
     overrideExistingEffect: 0
-    effectOnHitIDList: 
+    effectOnHitIDList: 00000000
     hit_AOE: 1
-    damageMin_AOE: 2
-    damageMax_AOE: 2
+    damageMin_AOE: 4
+    damageMax_AOE: 5
     attackRange_AOE: 2
-    cooldown_AOE: 1
+    cooldown_AOE: 2
     critChance_AOE: 0
     critMultiplier_AOE: 0
     effectOnHitChance_AOE: 1
@@ -324,7 +324,7 @@ MonoBehaviour:
   clipDeconstruct: {fileID: 0}
   towerType: 0
   isTurret: 1
-  isAOE: 1
+  isAOE: 0
   isSupport: 0
   isResource: 0
   isMine: 0

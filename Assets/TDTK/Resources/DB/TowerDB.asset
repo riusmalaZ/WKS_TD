@@ -16,8 +16,10 @@ MonoBehaviour:
   - {fileID: 5970076541225327407, guid: c0e680dbd86ad8540badc3587511d57b, type: 3}
   - {fileID: 7524970725049993550, guid: 405f5e548dabcaa48bede1149f6f502e, type: 3}
   - {fileID: 4639514557135355777, guid: c861770769046884b9ff431590ed43aa, type: 3}
+  - {fileID: 8826740473415922449, guid: 866570b4e2715bb4fa953345a69d1b51, type: 3}
   towerList:
   - {fileID: 277372211491387322, guid: c0e680dbd86ad8540badc3587511d57b, type: 3}
   - {fileID: 3605547070609849575, guid: 405f5e548dabcaa48bede1149f6f502e, type: 3}
   - {fileID: 3265217234116915610, guid: c861770769046884b9ff431590ed43aa, type: 3}
+  - {fileID: -4488430631533969519, guid: 866570b4e2715bb4fa953345a69d1b51, type: 3}
   copiedFromOldDB: 0

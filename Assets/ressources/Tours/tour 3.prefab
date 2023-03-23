@@ -73,7 +73,7 @@ MonoBehaviour:
     cost:
     - 40
     sellValue:
-    - 0
+    - 25
     hp: 5
     sh: 0
     shRegen: 0.5
@@ -87,11 +87,11 @@ MonoBehaviour:
     dmgReduc: 0
     critReduc: 0
     hit: 1
-    damageMin: 4
-    damageMax: 6
-    attackRange: 9
+    damageMin: 19
+    damageMax: 25
+    attackRange: 15
     aoeRange: 0
-    cooldown: 3
+    cooldown: 4
     critChance: 0
     critMultiplier: 0
     effectOnHitChance: 1
