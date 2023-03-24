@@ -72,7 +72,7 @@ MonoBehaviour:
     sellDuration: 1
     expToNextUpgrade: 10
     cost:
-    - 15
+    - 10
     sellValue:
     - 0
     hp: 5
@@ -109,8 +109,8 @@ MonoBehaviour:
     overrideExistingEffect_AOE: 0
     effectOnHitIDList_AOE: 
     hit_Mine: 1
-    damageMin_Mine: 10
-    damageMax_Mine: 17
+    damageMin_Mine: 20
+    damageMax_Mine: 25
     aoeRange_Mine: 5
     cooldown_Mine: 1
     critChance_Mine: 0

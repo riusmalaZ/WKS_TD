@@ -87,8 +87,8 @@ MonoBehaviour:
     dmgReduc: 0
     critReduc: 0
     hit: 1
-    damageMin: 19
-    damageMax: 25
+    damageMin: 22
+    damageMax: 28
     attackRange: 15
     aoeRange: 0
     cooldown: 4
