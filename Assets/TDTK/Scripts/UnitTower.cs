@@ -7,6 +7,7 @@ namespace TDTK{
 
 	public class UnitTower : Unit {
 		
+		
 		public override _UnitType GetUnitType(){ return _UnitType.Tower; }
 		public override bool IsTower(){ return true; }
 		public override UnitTower GetTower(){ return this; }
@@ -23,6 +24,7 @@ namespace TDTK{
 		public bool isSupport;
 		public bool isResource;
 		public bool isMine;
+		public bool shoot;
 		
 		public override bool IsTurret(){ return isTurret; }
 		public override bool IsAOE(){ return isAOE; }
@@ -261,6 +263,7 @@ namespace TDTK{
 					
 					cooldownAOE=GetCooldown_AOE();
 					for(int i=0; i<tgtList.Count; i++) tgtList[i].ApplyAttack(new AttackInfo(this, tgtList[i], 1));
+					
 				}
 				else cooldownAOE=0.1f;
 			}

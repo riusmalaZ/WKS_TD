@@ -149,16 +149,8 @@ namespace TDTK {
 			SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 			Time.timeScale=1;
 		}
-		public static void NextLevel(){
-			Debug.Log("load next level");
-			SceneManager.LoadScene(instance.nextLevelName);
-			Time.timeScale=1;
-		}
-		public static void MainMenu(){
-			Debug.Log("load main menu");
-			SceneManager.LoadScene(instance.mainMenuName);
-			Time.timeScale=1;
-		}
+		
+		
 		
 		
 		

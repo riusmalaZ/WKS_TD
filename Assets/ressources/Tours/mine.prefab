@@ -109,8 +109,8 @@ MonoBehaviour:
     overrideExistingEffect_AOE: 0
     effectOnHitIDList_AOE: 
     hit_Mine: 1
-    damageMin_Mine: 20
-    damageMax_Mine: 25
+    damageMin_Mine: 35
+    damageMax_Mine: 45
     aoeRange_Mine: 5
     cooldown_Mine: 1
     critChance_Mine: 0
@@ -328,6 +328,7 @@ MonoBehaviour:
   isSupport: 0
   isResource: 0
   isMine: 1
+  shoot: 0
   targetGroup: 0
   activeBetweenWave: 0
   isPreview: 0

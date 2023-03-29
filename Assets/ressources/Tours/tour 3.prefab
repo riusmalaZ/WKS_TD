@@ -327,6 +327,7 @@ MonoBehaviour:
   isSupport: 0
   isResource: 0
   isMine: 0
+  shoot: 0
   targetGroup: 0
   activeBetweenWave: 0
   isPreview: 0

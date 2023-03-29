@@ -88,9 +88,9 @@ MonoBehaviour:
     dmgReduc: 0
     critReduc: 0
     hit: 1
-    damageMin: 6
-    damageMax: 8
-    attackRange: 6
+    damageMin: 9
+    damageMax: 12
+    attackRange: 4
     aoeRange: 4
     cooldown: 2
     critChance: 0
@@ -328,6 +328,7 @@ MonoBehaviour:
   isSupport: 0
   isResource: 0
   isMine: 0
+  shoot: 0
   targetGroup: 0
   activeBetweenWave: 0
   isPreview: 0

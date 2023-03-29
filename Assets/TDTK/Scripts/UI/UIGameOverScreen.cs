@@ -27,35 +27,35 @@ namespace TDTK{
 		public override void Start(){ 
 			base.Start();
 			
-			buttonContinue.Init();		buttonContinue.button.onClick.AddListener(() => OnContinueButton());
+			//buttonContinue.Init();		buttonContinue.button.onClick.AddListener(() => OnContinueButton());
 			
 			buttonRestart.Init();		buttonRestart.button.onClick.AddListener(() => OnRestartButton());
 			
-			buttonMainMenu.Init();		buttonMainMenu.button.onClick.AddListener(() => OnMenuButton());
+			//buttonMainMenu.Init();		buttonMainMenu.button.onClick.AddListener(() => OnMenuButton());
 			
 			thisObj.SetActive(false);
 		}
 		
 		
-		public void OnContinueButton(){
-			GameControl.NextLevel();
-		}
+		//public void OnContinueButton(){
+		//	GameControl.NextLevel();
+		//}
 		public void OnRestartButton(){
 			GameControl.RestartLevel();
 		}
-		public void OnMenuButton(){
-			GameControl.MainMenu();
-		}
+		//public void OnMenuButton(){
+		//	GameControl.MainMenu();
+		//}
 		
 		
 		
 		public static void Show(bool playerWon){ if(instance!=null) instance._Show(playerWon); }
 		public void _Show(bool playerWon){
-			if(playerWon) lbGameOverMsg.text="Level Completed";
-			else lbGameOverMsg.text="Game Over";
+			if(playerWon) lbGameOverMsg.text="Bravo !";
+			else lbGameOverMsg.text="Perdu !";
 			
-			buttonContinue.button.interactable=playerWon;
-			//buttonContinue.SetActive(playerWon);
+			//buttonContinue.button.interactable=playerWon;
+			buttonContinue.SetActive(playerWon);
 			
 			UIControl.BlurFadeIn();
 			

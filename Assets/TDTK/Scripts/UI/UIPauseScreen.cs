@@ -41,7 +41,7 @@ namespace TDTK{
 			
 			buttonResume.Init();		buttonResume.button.onClick.AddListener(() => OnResumeButton());
 			buttonRestart.Init();		buttonRestart.button.onClick.AddListener(() => OnRestartButton());
-			buttonMainMenu.Init();		buttonMainMenu.button.onClick.AddListener(() => OnMenuButton());
+			//buttonMainMenu.Init();		buttonMainMenu.button.onClick.AddListener(() => OnMenuButton());
 			
 			thisObj.SetActive(false);
 		}
@@ -53,9 +53,9 @@ namespace TDTK{
 		public void OnRestartButton(){
 			GameControl.RestartLevel();
 		}
-		public void OnMenuButton(){
-			GameControl.MainMenu();
-		}
+		//public void OnMenuButton(){
+		//	GameControl.MainMenu();
+		//}
 		
 		
 		void OnSFXVolumeChanged(){
